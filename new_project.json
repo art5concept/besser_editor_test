@@ -24,8 +24,8 @@
           "version": "3.0.0",
           "type": "ClassDiagram",
           "size": {
-            "width": 978,
-            "height": 418
+            "width": 930,
+            "height": 430
           },
           "interactive": {
             "elements": {},
@@ -38,10 +38,10 @@
               "type": "Class",
               "owner": null,
               "bounds": {
-                "x": -91,
-                "y": -189,
+                "x": -94,
+                "y": -195,
                 "width": 290,
-                "height": 160
+                "height": 190
               },
               "attributes": [
                 "540e6455-de99-4aea-aefc-4c60e816a671",
@@ -49,7 +49,8 @@
                 "c9a219cb-687e-47e4-9fb0-4f4a3c1dc308"
               ],
               "methods": [
-                "7214b3cb-f1cb-48b2-8a84-3b1b1e8f9ab3"
+                "7214b3cb-f1cb-48b2-8a84-3b1b1e8f9ab3",
+                "76a6445b-23c3-408d-81b2-de63668238e5"
               ]
             },
             "540e6455-de99-4aea-aefc-4c60e816a671": {
@@ -58,8 +59,8 @@
               "type": "ClassAttribute",
               "owner": "06f752a4-8d1d-4b0a-a7c2-57314048f35e",
               "bounds": {
-                "x": -90.5,
-                "y": -148.5,
+                "x": -93.5,
+                "y": -154.5,
                 "width": 289,
                 "height": 30
               },
@@ -80,13 +81,13 @@
               "type": "ClassAttribute",
               "owner": "06f752a4-8d1d-4b0a-a7c2-57314048f35e",
               "bounds": {
-                "x": -90.5,
-                "y": -118.5,
+                "x": -93.5,
+                "y": -124.5,
                 "width": 289,
                 "height": 30
               },
               "code": "",
-              "visibility": "private",
+              "visibility": "public",
               "attributeType": "str",
               "implementationType": "none",
               "stateMachineId": "",
@@ -102,13 +103,13 @@
               "type": "ClassAttribute",
               "owner": "06f752a4-8d1d-4b0a-a7c2-57314048f35e",
               "bounds": {
-                "x": -90.5,
-                "y": -88.5,
+                "x": -93.5,
+                "y": -94.5,
                 "width": 289,
                 "height": 30
               },
               "code": "",
-              "visibility": "private",
+              "visibility": "public",
               "attributeType": "str",
               "implementationType": "none",
               "stateMachineId": "",
@@ -120,12 +121,34 @@
             },
             "7214b3cb-f1cb-48b2-8a84-3b1b1e8f9ab3": {
               "id": "7214b3cb-f1cb-48b2-8a84-3b1b1e8f9ab3",
-              "name": "+ insetar_tarjeta(param: int): int",
+              "name": "+ insetar_tarjeta(param: void): bool",
               "type": "ClassMethod",
               "owner": "06f752a4-8d1d-4b0a-a7c2-57314048f35e",
               "bounds": {
-                "x": -90.5,
-                "y": -58.5,
+                "x": -93.5,
+                "y": -64.5,
+                "width": 289,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "76a6445b-23c3-408d-81b2-de63668238e5": {
+              "id": "76a6445b-23c3-408d-81b2-de63668238e5",
+              "name": "+ introducir_pin(param: int): bool",
+              "type": "ClassMethod",
+              "owner": "06f752a4-8d1d-4b0a-a7c2-57314048f35e",
+              "bounds": {
+                "x": -93.5,
+                "y": -34.5,
                 "width": 289,
                 "height": 30
               },
@@ -146,10 +169,10 @@
               "type": "Class",
               "owner": null,
               "bounds": {
-                "x": -469,
-                "y": -183,
-                "width": 230,
-                "height": 160
+                "x": -445,
+                "y": -195,
+                "width": 300,
+                "height": 190
               },
               "attributes": [
                 "b64727a5-96bc-4f4f-976c-30b5bd281fda",
@@ -157,7 +180,8 @@
                 "3b5d72e1-102a-41a9-b920-98a60276b85c"
               ],
               "methods": [
-                "99ed23be-e486-40bc-bbca-32e6c3905651"
+                "99ed23be-e486-40bc-bbca-32e6c3905651",
+                "23010f0e-27d2-41cf-acd2-d4421c28d417"
               ]
             },
             "b64727a5-96bc-4f4f-976c-30b5bd281fda": {
@@ -166,13 +190,13 @@
               "type": "ClassAttribute",
               "owner": "9f0fc456-9c62-4582-851b-dc8421c118d9",
               "bounds": {
-                "x": -468.5,
-                "y": -142.5,
-                "width": 229,
+                "x": -444.5,
+                "y": -154.5,
+                "width": 299,
                 "height": 30
               },
               "code": "",
-              "visibility": "private",
+              "visibility": "public",
               "attributeType": "str",
               "implementationType": "none",
               "stateMachineId": "",
@@ -188,13 +212,13 @@
               "type": "ClassAttribute",
               "owner": "9f0fc456-9c62-4582-851b-dc8421c118d9",
               "bounds": {
-                "x": -468.5,
-                "y": -112.5,
-                "width": 229,
+                "x": -444.5,
+                "y": -124.5,
+                "width": 299,
                 "height": 30
               },
               "code": "",
-              "visibility": "private",
+              "visibility": "public",
               "attributeType": "float",
               "implementationType": "none",
               "stateMachineId": "",
@@ -210,13 +234,13 @@
               "type": "ClassAttribute",
               "owner": "9f0fc456-9c62-4582-851b-dc8421c118d9",
               "bounds": {
-                "x": -468.5,
-                "y": -82.5,
-                "width": 229,
+                "x": -444.5,
+                "y": -94.5,
+                "width": 299,
                 "height": 30
               },
               "code": "",
-              "visibility": "private",
+              "visibility": "public",
               "attributeType": "bool",
               "implementationType": "none",
               "stateMachineId": "",
@@ -228,13 +252,35 @@
             },
             "99ed23be-e486-40bc-bbca-32e6c3905651": {
               "id": "99ed23be-e486-40bc-bbca-32e6c3905651",
-              "name": "+ method()",
+              "name": "+ retirar_efectivo(param: int): int",
               "type": "ClassMethod",
               "owner": "9f0fc456-9c62-4582-851b-dc8421c118d9",
               "bounds": {
-                "x": -468.5,
-                "y": -52.5,
-                "width": 229,
+                "x": -444.5,
+                "y": -64.5,
+                "width": 299,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "23010f0e-27d2-41cf-acd2-d4421c28d417": {
+              "id": "23010f0e-27d2-41cf-acd2-d4421c28d417",
+              "name": "+ comprobar_saldo(param: bool): float",
+              "type": "ClassMethod",
+              "owner": "9f0fc456-9c62-4582-851b-dc8421c118d9",
+              "bounds": {
+                "x": -444.5,
+                "y": -34.5,
+                "width": 299,
                 "height": 30
               },
               "code": "",
@@ -252,7 +298,7 @@
           "relationships": {},
           "assessments": {}
         },
-        "lastUpdate": "2026-04-23T00:40:33.894Z"
+        "lastUpdate": "2026-04-23T01:14:43.162Z"
       }
     ],
     "ObjectDiagram": [
