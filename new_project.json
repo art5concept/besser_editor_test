@@ -1,0 +1,385 @@
+{
+  "id": "c4257ed7-902c-479c-87a2-2d159a03930e",
+  "type": "Project",
+  "schemaVersion": 3,
+  "name": "New_Project",
+  "description": "Modern workspace project for UML, GUI and quantum modeling.",
+  "owner": "BESSER User",
+  "createdAt": "2026-04-23T00:24:17.156Z",
+  "currentDiagramType": "ClassDiagram",
+  "currentDiagramIndices": {
+    "ClassDiagram": 0,
+    "ObjectDiagram": 0,
+    "StateMachineDiagram": 0,
+    "AgentDiagram": 0,
+    "GUINoCodeDiagram": 0,
+    "QuantumCircuitDiagram": 0
+  },
+  "diagrams": {
+    "ClassDiagram": [
+      {
+        "id": "8b0fa134-52c8-472f-9fba-f3b9c11cac1f",
+        "title": "Class Diagram",
+        "model": {
+          "version": "3.0.0",
+          "type": "ClassDiagram",
+          "size": {
+            "width": 978,
+            "height": 418
+          },
+          "interactive": {
+            "elements": {},
+            "relationships": {}
+          },
+          "elements": {
+            "06f752a4-8d1d-4b0a-a7c2-57314048f35e": {
+              "id": "06f752a4-8d1d-4b0a-a7c2-57314048f35e",
+              "name": "Cliente",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -91,
+                "y": -189,
+                "width": 290,
+                "height": 160
+              },
+              "attributes": [
+                "540e6455-de99-4aea-aefc-4c60e816a671",
+                "7fd03cba-f6aa-4526-a5db-8b223da7ae9b",
+                "c9a219cb-687e-47e4-9fb0-4f4a3c1dc308"
+              ],
+              "methods": [
+                "7214b3cb-f1cb-48b2-8a84-3b1b1e8f9ab3"
+              ]
+            },
+            "540e6455-de99-4aea-aefc-4c60e816a671": {
+              "id": "540e6455-de99-4aea-aefc-4c60e816a671",
+              "name": "id_de_cliente",
+              "type": "ClassAttribute",
+              "owner": "06f752a4-8d1d-4b0a-a7c2-57314048f35e",
+              "bounds": {
+                "x": -90.5,
+                "y": -148.5,
+                "width": 289,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "private",
+              "attributeType": "int",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "7fd03cba-f6aa-4526-a5db-8b223da7ae9b": {
+              "id": "7fd03cba-f6aa-4526-a5db-8b223da7ae9b",
+              "name": "nombre_cliente",
+              "type": "ClassAttribute",
+              "owner": "06f752a4-8d1d-4b0a-a7c2-57314048f35e",
+              "bounds": {
+                "x": -90.5,
+                "y": -118.5,
+                "width": 289,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "private",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "c9a219cb-687e-47e4-9fb0-4f4a3c1dc308": {
+              "id": "c9a219cb-687e-47e4-9fb0-4f4a3c1dc308",
+              "name": "numero_cuenta",
+              "type": "ClassAttribute",
+              "owner": "06f752a4-8d1d-4b0a-a7c2-57314048f35e",
+              "bounds": {
+                "x": -90.5,
+                "y": -88.5,
+                "width": 289,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "private",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "7214b3cb-f1cb-48b2-8a84-3b1b1e8f9ab3": {
+              "id": "7214b3cb-f1cb-48b2-8a84-3b1b1e8f9ab3",
+              "name": "+ insetar_tarjeta(param: int): int",
+              "type": "ClassMethod",
+              "owner": "06f752a4-8d1d-4b0a-a7c2-57314048f35e",
+              "bounds": {
+                "x": -90.5,
+                "y": -58.5,
+                "width": 289,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "9f0fc456-9c62-4582-851b-dc8421c118d9": {
+              "id": "9f0fc456-9c62-4582-851b-dc8421c118d9",
+              "name": "Cuenta",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -469,
+                "y": -183,
+                "width": 230,
+                "height": 160
+              },
+              "attributes": [
+                "b64727a5-96bc-4f4f-976c-30b5bd281fda",
+                "afd2cf03-c1b2-46bd-b17f-92c676923170",
+                "3b5d72e1-102a-41a9-b920-98a60276b85c"
+              ],
+              "methods": [
+                "99ed23be-e486-40bc-bbca-32e6c3905651"
+              ]
+            },
+            "b64727a5-96bc-4f4f-976c-30b5bd281fda": {
+              "id": "b64727a5-96bc-4f4f-976c-30b5bd281fda",
+              "name": "numero_cuenta",
+              "type": "ClassAttribute",
+              "owner": "9f0fc456-9c62-4582-851b-dc8421c118d9",
+              "bounds": {
+                "x": -468.5,
+                "y": -142.5,
+                "width": 229,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "private",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "afd2cf03-c1b2-46bd-b17f-92c676923170": {
+              "id": "afd2cf03-c1b2-46bd-b17f-92c676923170",
+              "name": "saldo",
+              "type": "ClassAttribute",
+              "owner": "9f0fc456-9c62-4582-851b-dc8421c118d9",
+              "bounds": {
+                "x": -468.5,
+                "y": -112.5,
+                "width": 229,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "private",
+              "attributeType": "float",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "3b5d72e1-102a-41a9-b920-98a60276b85c": {
+              "id": "3b5d72e1-102a-41a9-b920-98a60276b85c",
+              "name": "activa",
+              "type": "ClassAttribute",
+              "owner": "9f0fc456-9c62-4582-851b-dc8421c118d9",
+              "bounds": {
+                "x": -468.5,
+                "y": -82.5,
+                "width": 229,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "private",
+              "attributeType": "bool",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "99ed23be-e486-40bc-bbca-32e6c3905651": {
+              "id": "99ed23be-e486-40bc-bbca-32e6c3905651",
+              "name": "+ method()",
+              "type": "ClassMethod",
+              "owner": "9f0fc456-9c62-4582-851b-dc8421c118d9",
+              "bounds": {
+                "x": -468.5,
+                "y": -52.5,
+                "width": 229,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            }
+          },
+          "relationships": {},
+          "assessments": {}
+        },
+        "lastUpdate": "2026-04-23T00:40:33.894Z"
+      }
+    ],
+    "ObjectDiagram": [
+      {
+        "id": "d9b55a7f-6c8a-4d40-8cfd-f839b32bd2c8",
+        "title": "Object Diagram",
+        "model": {
+          "version": "3.0.0",
+          "type": "ObjectDiagram",
+          "size": {
+            "width": 1400,
+            "height": 740
+          },
+          "elements": {},
+          "relationships": {},
+          "interactive": {
+            "elements": {},
+            "relationships": {}
+          },
+          "assessments": {}
+        },
+        "lastUpdate": "2026-04-23T00:24:17.157Z"
+      }
+    ],
+    "StateMachineDiagram": [
+      {
+        "id": "5a8c1404-75b5-4ed9-ae80-56dca34bd8e7",
+        "title": "State Machine Diagram",
+        "model": {
+          "version": "3.0.0",
+          "type": "StateMachineDiagram",
+          "size": {
+            "width": 1400,
+            "height": 740
+          },
+          "elements": {},
+          "relationships": {},
+          "interactive": {
+            "elements": {},
+            "relationships": {}
+          },
+          "assessments": {}
+        },
+        "lastUpdate": "2026-04-23T00:24:17.157Z"
+      }
+    ],
+    "AgentDiagram": [
+      {
+        "id": "00650701-253c-4d5e-a441-cef067487399",
+        "title": "Agent Diagram",
+        "model": {
+          "version": "3.0.0",
+          "type": "AgentDiagram",
+          "size": {
+            "width": 1400,
+            "height": 740
+          },
+          "elements": {},
+          "relationships": {},
+          "interactive": {
+            "elements": {},
+            "relationships": {}
+          },
+          "assessments": {}
+        },
+        "lastUpdate": "2026-04-23T00:24:17.157Z"
+      }
+    ],
+    "GUINoCodeDiagram": [
+      {
+        "id": "265a2113-ec99-4e54-807d-ebe29043e85b",
+        "title": "GUI Diagram",
+        "model": {
+          "pages": [
+            {
+              "name": "Home",
+              "frames": [
+                {
+                  "component": {
+                    "type": "wrapper",
+                    "stylable": [
+                      "background",
+                      "background-color",
+                      "background-image",
+                      "background-repeat",
+                      "background-attachment",
+                      "background-position",
+                      "background-size"
+                    ],
+                    "components": [],
+                    "head": {
+                      "type": "head"
+                    },
+                    "docEl": {
+                      "tagName": "html"
+                    }
+                  }
+                }
+              ]
+            }
+          ],
+          "styles": [],
+          "assets": [],
+          "symbols": [],
+          "version": "0.21.13"
+        },
+        "lastUpdate": "2026-04-23T00:24:17.157Z"
+      }
+    ],
+    "QuantumCircuitDiagram": [
+      {
+        "id": "6bff3fb7-68b3-4983-8569-aade726ea491",
+        "title": "Quantum Circuit",
+        "model": {
+          "cols": [],
+          "gates": [],
+          "gateMetadata": {},
+          "initialStates": [],
+          "version": "1.0.0"
+        },
+        "lastUpdate": "2026-04-23T00:24:17.157Z"
+      }
+    ]
+  },
+  "settings": {
+    "defaultDiagramType": "ClassDiagram",
+    "autoSave": true,
+    "collaborationEnabled": false
+  }
+}
