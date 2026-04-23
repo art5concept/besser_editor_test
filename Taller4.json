@@ -1,0 +1,329 @@
+{
+  "id": "c4257ed7-902c-479c-87a2-2d159a03930e",
+  "type": "Project",
+  "schemaVersion": 3,
+  "name": "New_Project",
+  "description": "Modern workspace project for UML, GUI and quantum modeling.",
+  "owner": "BESSER User",
+  "createdAt": "2026-04-23T00:24:17.156Z",
+  "currentDiagramType": "ClassDiagram",
+  "currentDiagramIndices": {
+    "ClassDiagram": 0,
+    "ObjectDiagram": 0,
+    "StateMachineDiagram": 0,
+    "AgentDiagram": 0,
+    "GUINoCodeDiagram": 0,
+    "QuantumCircuitDiagram": 0
+  },
+  "diagrams": {
+    "ClassDiagram": [
+      {
+        "id": "8b0fa134-52c8-472f-9fba-f3b9c11cac1f",
+        "title": "Class Diagram",
+        "model": {
+          "version": "3.0.0",
+          "type": "ClassDiagram",
+          "size": {
+            "width": 488,
+            "height": 920
+          },
+          "interactive": {
+            "elements": {},
+            "relationships": {}
+          },
+          "elements": {
+            "06f752a4-8d1d-4b0a-a7c2-57314048f35e": {
+              "id": "06f752a4-8d1d-4b0a-a7c2-57314048f35e",
+              "name": "mammal",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -220,
+                "y": -440,
+                "width": 160,
+                "height": 100
+              },
+              "attributes": [
+                "1c7595c0-2e03-4d94-9ff6-ead9afe41ae4"
+              ],
+              "methods": [
+                "7214b3cb-f1cb-48b2-8a84-3b1b1e8f9ab3"
+              ]
+            },
+            "1c7595c0-2e03-4d94-9ff6-ead9afe41ae4": {
+              "id": "1c7595c0-2e03-4d94-9ff6-ead9afe41ae4",
+              "name": "attribute",
+              "type": "ClassAttribute",
+              "owner": "06f752a4-8d1d-4b0a-a7c2-57314048f35e",
+              "bounds": {
+                "x": -219.5,
+                "y": -399.5,
+                "width": 159,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "7214b3cb-f1cb-48b2-8a84-3b1b1e8f9ab3": {
+              "id": "7214b3cb-f1cb-48b2-8a84-3b1b1e8f9ab3",
+              "name": "+ method()",
+              "type": "ClassMethod",
+              "owner": "06f752a4-8d1d-4b0a-a7c2-57314048f35e",
+              "bounds": {
+                "x": -219.5,
+                "y": -369.5,
+                "width": 159,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "9f0fc456-9c62-4582-851b-dc8421c118d9": {
+              "id": "9f0fc456-9c62-4582-851b-dc8421c118d9",
+              "name": "cat",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -224,
+                "y": -161,
+                "width": 160,
+                "height": 100
+              },
+              "attributes": [
+                "afd2cf03-c1b2-46bd-b17f-92c676923170"
+              ],
+              "methods": [
+                "99ed23be-e486-40bc-bbca-32e6c3905651"
+              ]
+            },
+            "afd2cf03-c1b2-46bd-b17f-92c676923170": {
+              "id": "afd2cf03-c1b2-46bd-b17f-92c676923170",
+              "name": "attribute",
+              "type": "ClassAttribute",
+              "owner": "9f0fc456-9c62-4582-851b-dc8421c118d9",
+              "bounds": {
+                "x": -223.5,
+                "y": -120.5,
+                "width": 159,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "99ed23be-e486-40bc-bbca-32e6c3905651": {
+              "id": "99ed23be-e486-40bc-bbca-32e6c3905651",
+              "name": "+ method()",
+              "type": "ClassMethod",
+              "owner": "9f0fc456-9c62-4582-851b-dc8421c118d9",
+              "bounds": {
+                "x": -223.5,
+                "y": -90.5,
+                "width": 159,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            }
+          },
+          "relationships": {
+            "38805ced-5004-4fcf-8539-9dc64df27292": {
+              "id": "38805ced-5004-4fcf-8539-9dc64df27292",
+              "name": "",
+              "type": "ClassBidirectional",
+              "owner": null,
+              "bounds": {
+                "x": -147,
+                "y": -340,
+                "width": 10,
+                "height": 179
+              },
+              "path": [
+                {
+                  "x": 5,
+                  "y": 0
+                },
+                {
+                  "x": 5,
+                  "y": 179
+                }
+              ],
+              "source": {
+                "direction": "Down",
+                "element": "06f752a4-8d1d-4b0a-a7c2-57314048f35e",
+                "multiplicity": "",
+                "role": ""
+              },
+              "target": {
+                "direction": "Up",
+                "element": "9f0fc456-9c62-4582-851b-dc8421c118d9",
+                "multiplicity": "",
+                "role": ""
+              },
+              "isManuallyLayouted": false
+            }
+          },
+          "assessments": {}
+        },
+        "lastUpdate": "2026-04-23T00:27:35.690Z"
+      }
+    ],
+    "ObjectDiagram": [
+      {
+        "id": "d9b55a7f-6c8a-4d40-8cfd-f839b32bd2c8",
+        "title": "Object Diagram",
+        "model": {
+          "version": "3.0.0",
+          "type": "ObjectDiagram",
+          "size": {
+            "width": 1400,
+            "height": 740
+          },
+          "elements": {},
+          "relationships": {},
+          "interactive": {
+            "elements": {},
+            "relationships": {}
+          },
+          "assessments": {}
+        },
+        "lastUpdate": "2026-04-23T00:24:17.157Z"
+      }
+    ],
+    "StateMachineDiagram": [
+      {
+        "id": "5a8c1404-75b5-4ed9-ae80-56dca34bd8e7",
+        "title": "State Machine Diagram",
+        "model": {
+          "version": "3.0.0",
+          "type": "StateMachineDiagram",
+          "size": {
+            "width": 1400,
+            "height": 740
+          },
+          "elements": {},
+          "relationships": {},
+          "interactive": {
+            "elements": {},
+            "relationships": {}
+          },
+          "assessments": {}
+        },
+        "lastUpdate": "2026-04-23T00:24:17.157Z"
+      }
+    ],
+    "AgentDiagram": [
+      {
+        "id": "00650701-253c-4d5e-a441-cef067487399",
+        "title": "Agent Diagram",
+        "model": {
+          "version": "3.0.0",
+          "type": "AgentDiagram",
+          "size": {
+            "width": 1400,
+            "height": 740
+          },
+          "elements": {},
+          "relationships": {},
+          "interactive": {
+            "elements": {},
+            "relationships": {}
+          },
+          "assessments": {}
+        },
+        "lastUpdate": "2026-04-23T00:24:17.157Z"
+      }
+    ],
+    "GUINoCodeDiagram": [
+      {
+        "id": "265a2113-ec99-4e54-807d-ebe29043e85b",
+        "title": "GUI Diagram",
+        "model": {
+          "pages": [
+            {
+              "name": "Home",
+              "frames": [
+                {
+                  "component": {
+                    "type": "wrapper",
+                    "stylable": [
+                      "background",
+                      "background-color",
+                      "background-image",
+                      "background-repeat",
+                      "background-attachment",
+                      "background-position",
+                      "background-size"
+                    ],
+                    "components": [],
+                    "head": {
+                      "type": "head"
+                    },
+                    "docEl": {
+                      "tagName": "html"
+                    }
+                  }
+                }
+              ]
+            }
+          ],
+          "styles": [],
+          "assets": [],
+          "symbols": [],
+          "version": "0.21.13"
+        },
+        "lastUpdate": "2026-04-23T00:24:17.157Z"
+      }
+    ],
+    "QuantumCircuitDiagram": [
+      {
+        "id": "6bff3fb7-68b3-4983-8569-aade726ea491",
+        "title": "Quantum Circuit",
+        "model": {
+          "cols": [],
+          "gates": [],
+          "gateMetadata": {},
+          "initialStates": [],
+          "version": "1.0.0"
+        },
+        "lastUpdate": "2026-04-23T00:24:17.157Z"
+      }
+    ]
+  },
+  "settings": {
+    "defaultDiagramType": "ClassDiagram",
+    "autoSave": true,
+    "collaborationEnabled": false
+  }
+}
