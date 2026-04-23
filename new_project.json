@@ -8,7 +8,7 @@
   "createdAt": "2026-04-23T00:24:17.156Z",
   "currentDiagramType": "ClassDiagram",
   "currentDiagramIndices": {
-    "ClassDiagram": 0,
+    "ClassDiagram": 3,
     "ObjectDiagram": 0,
     "StateMachineDiagram": 0,
     "AgentDiagram": 0,
@@ -19,13 +19,13 @@
     "ClassDiagram": [
       {
         "id": "8b0fa134-52c8-472f-9fba-f3b9c11cac1f",
-        "title": "Class Diagram",
+        "title": "Ex 1",
         "model": {
           "version": "3.0.0",
           "type": "ClassDiagram",
           "size": {
             "width": 930,
-            "height": 430
+            "height": 1240
           },
           "interactive": {
             "elements": {},
@@ -293,12 +293,1144 @@
               "isDerived": false,
               "isId": false,
               "isExternalId": false
+            },
+            "cbb7af54-f8ca-4b0f-b708-8862722b53da": {
+              "id": "cbb7af54-f8ca-4b0f-b708-8862722b53da",
+              "name": "CajeroATM",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -150,
+                "y": -600,
+                "width": 280,
+                "height": 220
+              },
+              "attributes": [
+                "f95044f3-847f-4fd2-afd3-b3547eb4ca59"
+              ],
+              "methods": [
+                "e21e93ec-cb4a-42ab-92e7-865cb3e74ca4",
+                "2db92cc7-a8ae-4deb-b113-22ed4fac90fd",
+                "0cd0a526-3b36-48cf-9d3f-c7056233c8e2",
+                "1a6d1af6-88d4-46e3-bb42-e4f03f47b621",
+                "5ccd6159-74a5-4311-8a37-b9038332670f"
+              ]
+            },
+            "f95044f3-847f-4fd2-afd3-b3547eb4ca59": {
+              "id": "f95044f3-847f-4fd2-afd3-b3547eb4ca59",
+              "name": "id_cajero",
+              "type": "ClassAttribute",
+              "owner": "cbb7af54-f8ca-4b0f-b708-8862722b53da",
+              "bounds": {
+                "x": -149.5,
+                "y": -559.5,
+                "width": 279,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "private",
+              "attributeType": "int",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "e21e93ec-cb4a-42ab-92e7-865cb3e74ca4": {
+              "id": "e21e93ec-cb4a-42ab-92e7-865cb3e74ca4",
+              "name": "+ encender(): void",
+              "type": "ClassMethod",
+              "owner": "cbb7af54-f8ca-4b0f-b708-8862722b53da",
+              "bounds": {
+                "x": -149.5,
+                "y": -529.5,
+                "width": 279,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "2db92cc7-a8ae-4deb-b113-22ed4fac90fd": {
+              "id": "2db92cc7-a8ae-4deb-b113-22ed4fac90fd",
+              "name": "+ apagar(): void",
+              "type": "ClassMethod",
+              "owner": "cbb7af54-f8ca-4b0f-b708-8862722b53da",
+              "bounds": {
+                "x": -149.5,
+                "y": -499.5,
+                "width": 279,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "0cd0a526-3b36-48cf-9d3f-c7056233c8e2": {
+              "id": "0cd0a526-3b36-48cf-9d3f-c7056233c8e2",
+              "name": "+ mostrar_menu(): void",
+              "type": "ClassMethod",
+              "owner": "cbb7af54-f8ca-4b0f-b708-8862722b53da",
+              "bounds": {
+                "x": -149.5,
+                "y": -469.5,
+                "width": 279,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "1a6d1af6-88d4-46e3-bb42-e4f03f47b621": {
+              "id": "1a6d1af6-88d4-46e3-bb42-e4f03f47b621",
+              "name": "+ validar_tarjeta(param: str):bool",
+              "type": "ClassMethod",
+              "owner": "cbb7af54-f8ca-4b0f-b708-8862722b53da",
+              "bounds": {
+                "x": -149.5,
+                "y": -439.5,
+                "width": 279,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "5ccd6159-74a5-4311-8a37-b9038332670f": {
+              "id": "5ccd6159-74a5-4311-8a37-b9038332670f",
+              "name": "+ cancelar_oper(): void",
+              "type": "ClassMethod",
+              "owner": "cbb7af54-f8ca-4b0f-b708-8862722b53da",
+              "bounds": {
+                "x": -149.5,
+                "y": -409.5,
+                "width": 279,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
             }
           },
           "relationships": {},
           "assessments": {}
         },
-        "lastUpdate": "2026-04-23T01:14:43.162Z"
+        "lastUpdate": "2026-04-23T02:16:04.946Z"
+      },
+      {
+        "id": "66430ce8-d8b2-4115-85d0-c5d41169d32a",
+        "title": "Ex 2",
+        "model": {
+          "version": "3.0.0",
+          "type": "ClassDiagram",
+          "size": {
+            "width": 1202,
+            "height": 880
+          },
+          "interactive": {
+            "elements": {},
+            "relationships": {}
+          },
+          "elements": {
+            "ae8f5caa-0cde-4afa-af4c-390b50e7f8a5": {
+              "id": "ae8f5caa-0cde-4afa-af4c-390b50e7f8a5",
+              "name": "Organism",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -220,
+                "y": -420,
+                "width": 160,
+                "height": 100
+              },
+              "attributes": [
+                "b91d1844-3191-4768-ba02-41fda57ce04d"
+              ],
+              "methods": [
+                "9e02967a-c23e-4bf8-9713-ac6cd194bc91"
+              ]
+            },
+            "b91d1844-3191-4768-ba02-41fda57ce04d": {
+              "id": "b91d1844-3191-4768-ba02-41fda57ce04d",
+              "name": "edad",
+              "type": "ClassAttribute",
+              "owner": "ae8f5caa-0cde-4afa-af4c-390b50e7f8a5",
+              "bounds": {
+                "x": -219.5,
+                "y": -379.5,
+                "width": 159,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "timedelta",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "9e02967a-c23e-4bf8-9713-ac6cd194bc91": {
+              "id": "9e02967a-c23e-4bf8-9713-ac6cd194bc91",
+              "name": "+ perder_hojas()",
+              "type": "ClassMethod",
+              "owner": "ae8f5caa-0cde-4afa-af4c-390b50e7f8a5",
+              "bounds": {
+                "x": -219.5,
+                "y": -349.5,
+                "width": 159,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "8d9e90ca-7e80-4e46-9aec-7f890593c289": {
+              "id": "8d9e90ca-7e80-4e46-9aec-7f890593c289",
+              "name": "Animal",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -440,
+                "y": -230,
+                "width": 160,
+                "height": 160
+              },
+              "attributes": [
+                "52fb58e3-7d0e-4e4e-9eb7-7717cd603055"
+              ],
+              "methods": [
+                "ce1f8c2b-f080-4aca-822c-b81c2d8bb527",
+                "6b393166-80ac-417c-b79c-93b5478672ac",
+                "3dbabf1c-547e-40a0-8ffb-b616c239c495"
+              ]
+            },
+            "52fb58e3-7d0e-4e4e-9eb7-7717cd603055": {
+              "id": "52fb58e3-7d0e-4e4e-9eb7-7717cd603055",
+              "name": "sexo",
+              "type": "ClassAttribute",
+              "owner": "8d9e90ca-7e80-4e46-9aec-7f890593c289",
+              "bounds": {
+                "x": -439.5,
+                "y": -189.5,
+                "width": 159,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "ce1f8c2b-f080-4aca-822c-b81c2d8bb527": {
+              "id": "ce1f8c2b-f080-4aca-822c-b81c2d8bb527",
+              "name": "+ moverse()",
+              "type": "ClassMethod",
+              "owner": "8d9e90ca-7e80-4e46-9aec-7f890593c289",
+              "bounds": {
+                "x": -439.5,
+                "y": -159.5,
+                "width": 159,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "6b393166-80ac-417c-b79c-93b5478672ac": {
+              "id": "6b393166-80ac-417c-b79c-93b5478672ac",
+              "name": "+ alimentarse()",
+              "type": "ClassMethod",
+              "owner": "8d9e90ca-7e80-4e46-9aec-7f890593c289",
+              "bounds": {
+                "x": -439.5,
+                "y": -129.5,
+                "width": 159,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "3dbabf1c-547e-40a0-8ffb-b616c239c495": {
+              "id": "3dbabf1c-547e-40a0-8ffb-b616c239c495",
+              "name": "+ dormir()",
+              "type": "ClassMethod",
+              "owner": "8d9e90ca-7e80-4e46-9aec-7f890593c289",
+              "bounds": {
+                "x": -439.5,
+                "y": -99.5,
+                "width": 159,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "f9c8d5f4-acf0-46df-87f6-3ef13b7ef6f7": {
+              "id": "f9c8d5f4-acf0-46df-87f6-3ef13b7ef6f7",
+              "name": "Plant",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": 0,
+                "y": -230,
+                "width": 160,
+                "height": 130
+              },
+              "attributes": [
+                "84066423-ab95-4587-b682-94bf820e06b5"
+              ],
+              "methods": [
+                "cc0a1c4c-08a7-43fc-ac55-5f4b16c30967",
+                "560379f5-8e9a-4acc-b604-60dc6cb6a33f"
+              ]
+            },
+            "84066423-ab95-4587-b682-94bf820e06b5": {
+              "id": "84066423-ab95-4587-b682-94bf820e06b5",
+              "name": "comestible",
+              "type": "ClassAttribute",
+              "owner": "f9c8d5f4-acf0-46df-87f6-3ef13b7ef6f7",
+              "bounds": {
+                "x": 0.5,
+                "y": -189.5,
+                "width": 159,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "bool",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "cc0a1c4c-08a7-43fc-ac55-5f4b16c30967": {
+              "id": "cc0a1c4c-08a7-43fc-ac55-5f4b16c30967",
+              "name": "+ marchitar()",
+              "type": "ClassMethod",
+              "owner": "f9c8d5f4-acf0-46df-87f6-3ef13b7ef6f7",
+              "bounds": {
+                "x": 0.5,
+                "y": -159.5,
+                "width": 159,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "560379f5-8e9a-4acc-b604-60dc6cb6a33f": {
+              "id": "560379f5-8e9a-4acc-b604-60dc6cb6a33f",
+              "name": "+ crecer()",
+              "type": "ClassMethod",
+              "owner": "f9c8d5f4-acf0-46df-87f6-3ef13b7ef6f7",
+              "bounds": {
+                "x": 0.5,
+                "y": -129.5,
+                "width": 159,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "6c26ded5-aa9f-4185-8745-78fe08a0eddd": {
+              "id": "6c26ded5-aa9f-4185-8745-78fe08a0eddd",
+              "name": "Dog",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -581,
+                "y": 43,
+                "width": 160,
+                "height": 130
+              },
+              "attributes": [
+                "979c97f6-3cba-4aad-a896-01a40f6e02cf"
+              ],
+              "methods": [
+                "1d2c00d9-8e7d-4ffb-9a8a-12ffa7864208",
+                "1dc2ee4e-7ec0-49c5-9b28-6079eb4b6e79"
+              ]
+            },
+            "979c97f6-3cba-4aad-a896-01a40f6e02cf": {
+              "id": "979c97f6-3cba-4aad-a896-01a40f6e02cf",
+              "name": "cola",
+              "type": "ClassAttribute",
+              "owner": "6c26ded5-aa9f-4185-8745-78fe08a0eddd",
+              "bounds": {
+                "x": -580.5,
+                "y": 83.5,
+                "width": 159,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "1d2c00d9-8e7d-4ffb-9a8a-12ffa7864208": {
+              "id": "1d2c00d9-8e7d-4ffb-9a8a-12ffa7864208",
+              "name": "+ ladrar()",
+              "type": "ClassMethod",
+              "owner": "6c26ded5-aa9f-4185-8745-78fe08a0eddd",
+              "bounds": {
+                "x": -580.5,
+                "y": 113.5,
+                "width": 159,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "1dc2ee4e-7ec0-49c5-9b28-6079eb4b6e79": {
+              "id": "1dc2ee4e-7ec0-49c5-9b28-6079eb4b6e79",
+              "name": "+ dar_pata()",
+              "type": "ClassMethod",
+              "owner": "6c26ded5-aa9f-4185-8745-78fe08a0eddd",
+              "bounds": {
+                "x": -580.5,
+                "y": 143.5,
+                "width": 159,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "272940cc-0716-4895-b948-20ee67983aad": {
+              "id": "272940cc-0716-4895-b948-20ee67983aad",
+              "name": "Cat",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -314,
+                "y": 45,
+                "width": 160,
+                "height": 130
+              },
+              "attributes": [
+                "9b97308c-2aaf-4a7d-aa39-0372bf934581"
+              ],
+              "methods": [
+                "4f9b2761-db70-4e02-a91a-aa3760775f6d",
+                "192582ee-f72a-44ca-ac5e-76ff5bb92bdc"
+              ]
+            },
+            "9b97308c-2aaf-4a7d-aa39-0372bf934581": {
+              "id": "9b97308c-2aaf-4a7d-aa39-0372bf934581",
+              "name": "garras",
+              "type": "ClassAttribute",
+              "owner": "272940cc-0716-4895-b948-20ee67983aad",
+              "bounds": {
+                "x": -313.5,
+                "y": 85.5,
+                "width": 159,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "bool",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "4f9b2761-db70-4e02-a91a-aa3760775f6d": {
+              "id": "4f9b2761-db70-4e02-a91a-aa3760775f6d",
+              "name": "+ mullar()",
+              "type": "ClassMethod",
+              "owner": "272940cc-0716-4895-b948-20ee67983aad",
+              "bounds": {
+                "x": -313.5,
+                "y": 115.5,
+                "width": 159,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "192582ee-f72a-44ca-ac5e-76ff5bb92bdc": {
+              "id": "192582ee-f72a-44ca-ac5e-76ff5bb92bdc",
+              "name": "+ ronronear()",
+              "type": "ClassMethod",
+              "owner": "272940cc-0716-4895-b948-20ee67983aad",
+              "bounds": {
+                "x": -313.5,
+                "y": 145.5,
+                "width": 159,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "793e974a-c668-4ba8-af47-ca1ef20b2d61": {
+              "id": "793e974a-c668-4ba8-af47-ca1ef20b2d61",
+              "name": "Tree",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -137,
+                "y": 45,
+                "width": 160,
+                "height": 100
+              },
+              "attributes": [
+                "e9fb51a4-2f72-467f-8350-16296735be77"
+              ],
+              "methods": [
+                "e99150cb-add6-47fd-b980-ae98df1fcb33"
+              ]
+            },
+            "e9fb51a4-2f72-467f-8350-16296735be77": {
+              "id": "e9fb51a4-2f72-467f-8350-16296735be77",
+              "name": "tipo",
+              "type": "ClassAttribute",
+              "owner": "793e974a-c668-4ba8-af47-ca1ef20b2d61",
+              "bounds": {
+                "x": -136.5,
+                "y": 85.5,
+                "width": 159,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "e99150cb-add6-47fd-b980-ae98df1fcb33": {
+              "id": "e99150cb-add6-47fd-b980-ae98df1fcb33",
+              "name": "+ dar_fruto()",
+              "type": "ClassMethod",
+              "owner": "793e974a-c668-4ba8-af47-ca1ef20b2d61",
+              "bounds": {
+                "x": -136.5,
+                "y": 115.5,
+                "width": 159,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "1faa8dd5-76d2-437d-9477-968c6a679f91": {
+              "id": "1faa8dd5-76d2-437d-9477-968c6a679f91",
+              "name": "Plant",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": 133,
+                "y": 44,
+                "width": 160,
+                "height": 160
+              },
+              "attributes": [
+                "d4c15591-3902-457f-ac58-53790f1ea4f2",
+                "6d85c40a-748e-4ac3-84c7-9b54712aa191"
+              ],
+              "methods": [
+                "8d8882be-bc79-42c0-b90e-7710da7b9b90",
+                "c586bc17-8984-4e60-98a8-d3bf3ca15612"
+              ]
+            },
+            "d4c15591-3902-457f-ac58-53790f1ea4f2": {
+              "id": "d4c15591-3902-457f-ac58-53790f1ea4f2",
+              "name": "petalos",
+              "type": "ClassAttribute",
+              "owner": "1faa8dd5-76d2-437d-9477-968c6a679f91",
+              "bounds": {
+                "x": 133.5,
+                "y": 84.5,
+                "width": 159,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "int",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "6d85c40a-748e-4ac3-84c7-9b54712aa191": {
+              "id": "6d85c40a-748e-4ac3-84c7-9b54712aa191",
+              "name": "aroma",
+              "type": "ClassAttribute",
+              "owner": "1faa8dd5-76d2-437d-9477-968c6a679f91",
+              "bounds": {
+                "x": 133.5,
+                "y": 114.5,
+                "width": 159,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "8d8882be-bc79-42c0-b90e-7710da7b9b90": {
+              "id": "8d8882be-bc79-42c0-b90e-7710da7b9b90",
+              "name": "+ florecer()",
+              "type": "ClassMethod",
+              "owner": "1faa8dd5-76d2-437d-9477-968c6a679f91",
+              "bounds": {
+                "x": 133.5,
+                "y": 144.5,
+                "width": 159,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "c586bc17-8984-4e60-98a8-d3bf3ca15612": {
+              "id": "c586bc17-8984-4e60-98a8-d3bf3ca15612",
+              "name": "+ marchitar()",
+              "type": "ClassMethod",
+              "owner": "1faa8dd5-76d2-437d-9477-968c6a679f91",
+              "bounds": {
+                "x": 133.5,
+                "y": 174.5,
+                "width": 159,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            }
+          },
+          "relationships": {
+            "8719c9b5-8e82-4675-898a-5ca2f4a4eb82": {
+              "id": "8719c9b5-8e82-4675-898a-5ca2f4a4eb82",
+              "name": "",
+              "type": "ClassInheritance",
+              "owner": null,
+              "bounds": {
+                "x": -506,
+                "y": -70,
+                "width": 151,
+                "height": 113
+              },
+              "path": [
+                {
+                  "x": 5,
+                  "y": 113
+                },
+                {
+                  "x": 5,
+                  "y": 56.5
+                },
+                {
+                  "x": 146,
+                  "y": 56.5
+                },
+                {
+                  "x": 146,
+                  "y": 0
+                }
+              ],
+              "source": {
+                "direction": "Up",
+                "element": "6c26ded5-aa9f-4185-8745-78fe08a0eddd",
+                "multiplicity": "",
+                "role": ""
+              },
+              "target": {
+                "direction": "Down",
+                "element": "8d9e90ca-7e80-4e46-9aec-7f890593c289",
+                "multiplicity": "",
+                "role": ""
+              },
+              "isManuallyLayouted": false
+            },
+            "bb845ee7-a4a5-4e03-8470-0974a300a431": {
+              "id": "bb845ee7-a4a5-4e03-8470-0974a300a431",
+              "name": "",
+              "type": "ClassInheritance",
+              "owner": null,
+              "bounds": {
+                "x": -365,
+                "y": -70,
+                "width": 136,
+                "height": 115
+              },
+              "path": [
+                {
+                  "x": 131,
+                  "y": 115
+                },
+                {
+                  "x": 131,
+                  "y": 57.5
+                },
+                {
+                  "x": 5,
+                  "y": 57.5
+                },
+                {
+                  "x": 5,
+                  "y": 0
+                }
+              ],
+              "source": {
+                "direction": "Up",
+                "element": "272940cc-0716-4895-b948-20ee67983aad",
+                "multiplicity": "",
+                "role": ""
+              },
+              "target": {
+                "direction": "Down",
+                "element": "8d9e90ca-7e80-4e46-9aec-7f890593c289",
+                "multiplicity": "",
+                "role": ""
+              },
+              "isManuallyLayouted": false
+            },
+            "407d4f9f-643c-4fd3-810e-b1354725742e": {
+              "id": "407d4f9f-643c-4fd3-810e-b1354725742e",
+              "name": "",
+              "type": "ClassInheritance",
+              "owner": null,
+              "bounds": {
+                "x": -365,
+                "y": -320,
+                "width": 230,
+                "height": 90
+              },
+              "path": [
+                {
+                  "x": 5,
+                  "y": 90
+                },
+                {
+                  "x": 5,
+                  "y": 45
+                },
+                {
+                  "x": 225,
+                  "y": 45
+                },
+                {
+                  "x": 225,
+                  "y": 0
+                }
+              ],
+              "source": {
+                "direction": "Up",
+                "element": "8d9e90ca-7e80-4e46-9aec-7f890593c289",
+                "multiplicity": "",
+                "role": ""
+              },
+              "target": {
+                "direction": "Down",
+                "element": "ae8f5caa-0cde-4afa-af4c-390b50e7f8a5",
+                "multiplicity": "",
+                "role": ""
+              },
+              "isManuallyLayouted": false
+            },
+            "80b48d94-36bd-4e20-9437-e9f07de5ba19": {
+              "id": "80b48d94-36bd-4e20-9437-e9f07de5ba19",
+              "name": "",
+              "type": "ClassInheritance",
+              "owner": null,
+              "bounds": {
+                "x": -145,
+                "y": -320,
+                "width": 230,
+                "height": 90
+              },
+              "path": [
+                {
+                  "x": 225,
+                  "y": 90
+                },
+                {
+                  "x": 225,
+                  "y": 45
+                },
+                {
+                  "x": 5,
+                  "y": 45
+                },
+                {
+                  "x": 5,
+                  "y": 0
+                }
+              ],
+              "source": {
+                "direction": "Up",
+                "element": "f9c8d5f4-acf0-46df-87f6-3ef13b7ef6f7",
+                "multiplicity": "",
+                "role": ""
+              },
+              "target": {
+                "direction": "Down",
+                "element": "ae8f5caa-0cde-4afa-af4c-390b50e7f8a5",
+                "multiplicity": "",
+                "role": ""
+              },
+              "isManuallyLayouted": false
+            },
+            "5ec88665-0a0d-4d71-9ea6-0e6c6132bb55": {
+              "id": "5ec88665-0a0d-4d71-9ea6-0e6c6132bb55",
+              "name": "",
+              "type": "ClassInheritance",
+              "owner": null,
+              "bounds": {
+                "x": -62,
+                "y": -100,
+                "width": 147,
+                "height": 145
+              },
+              "path": [
+                {
+                  "x": 5,
+                  "y": 145
+                },
+                {
+                  "x": 5,
+                  "y": 72.5
+                },
+                {
+                  "x": 142,
+                  "y": 72.5
+                },
+                {
+                  "x": 142,
+                  "y": 0
+                }
+              ],
+              "source": {
+                "direction": "Up",
+                "element": "793e974a-c668-4ba8-af47-ca1ef20b2d61",
+                "multiplicity": "",
+                "role": ""
+              },
+              "target": {
+                "direction": "Down",
+                "element": "f9c8d5f4-acf0-46df-87f6-3ef13b7ef6f7",
+                "multiplicity": "",
+                "role": ""
+              },
+              "isManuallyLayouted": false
+            },
+            "d7bdb8c9-017c-44e7-ae9c-d2c1f3fc49c8": {
+              "id": "d7bdb8c9-017c-44e7-ae9c-d2c1f3fc49c8",
+              "name": "",
+              "type": "ClassInheritance",
+              "owner": null,
+              "bounds": {
+                "x": 75,
+                "y": -100,
+                "width": 143,
+                "height": 144
+              },
+              "path": [
+                {
+                  "x": 138,
+                  "y": 144
+                },
+                {
+                  "x": 138,
+                  "y": 72
+                },
+                {
+                  "x": 5,
+                  "y": 72
+                },
+                {
+                  "x": 5,
+                  "y": 0
+                }
+              ],
+              "source": {
+                "direction": "Up",
+                "element": "1faa8dd5-76d2-437d-9477-968c6a679f91",
+                "multiplicity": "",
+                "role": ""
+              },
+              "target": {
+                "direction": "Down",
+                "element": "f9c8d5f4-acf0-46df-87f6-3ef13b7ef6f7",
+                "multiplicity": "",
+                "role": ""
+              },
+              "isManuallyLayouted": false
+            }
+          },
+          "assessments": {}
+        },
+        "lastUpdate": "2026-04-23T02:16:06.139Z"
+      },
+      {
+        "id": "d996ee94-dde3-43b3-a14e-09000d7d5006",
+        "title": "Ex 3",
+        "model": {
+          "version": "3.0.0",
+          "type": "ClassDiagram",
+          "size": {
+            "width": 1400,
+            "height": 740
+          },
+          "elements": {},
+          "relationships": {},
+          "interactive": {
+            "elements": {},
+            "relationships": {}
+          },
+          "assessments": {}
+        },
+        "lastUpdate": "2026-04-23T01:16:04.319Z"
+      },
+      {
+        "id": "38468ecb-0577-45c8-8b23-aebe3bd22ebd",
+        "title": "Ex 4",
+        "model": {
+          "version": "3.0.0",
+          "type": "ClassDiagram",
+          "size": {
+            "width": 620,
+            "height": 860
+          },
+          "interactive": {
+            "elements": {},
+            "relationships": {}
+          },
+          "elements": {
+            "1defc643-d242-45c5-b0c7-65a3902990df": {
+              "id": "1defc643-d242-45c5-b0c7-65a3902990df",
+              "name": "",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -290,
+                "y": -410,
+                "width": 160,
+                "height": 100
+              },
+              "attributes": [
+                "aa9a09a2-aebc-45da-a4cc-ae296093a726"
+              ],
+              "methods": [
+                "c1d0fb03-656c-4ca5-b994-e4d92cd50913"
+              ]
+            },
+            "aa9a09a2-aebc-45da-a4cc-ae296093a726": {
+              "id": "aa9a09a2-aebc-45da-a4cc-ae296093a726",
+              "name": "attribute",
+              "type": "ClassAttribute",
+              "owner": "1defc643-d242-45c5-b0c7-65a3902990df",
+              "bounds": {
+                "x": -289.5,
+                "y": -369.5,
+                "width": 159,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "c1d0fb03-656c-4ca5-b994-e4d92cd50913": {
+              "id": "c1d0fb03-656c-4ca5-b994-e4d92cd50913",
+              "name": "+ method()",
+              "type": "ClassMethod",
+              "owner": "1defc643-d242-45c5-b0c7-65a3902990df",
+              "bounds": {
+                "x": -289.5,
+                "y": -339.5,
+                "width": 159,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            }
+          },
+          "relationships": {},
+          "assessments": {}
+        },
+        "lastUpdate": "2026-04-23T02:16:56.702Z"
       }
     ],
     "ObjectDiagram": [
